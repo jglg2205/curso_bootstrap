@@ -1,0 +1,10 @@
+/* barra de navegacion */
+.barra{
+    background-color: rgb(227, 168, 92);
+    padding: 2rem;
+
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content:end;
+}

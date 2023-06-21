@@ -1,10 +1,71 @@
 /* barra de navegacion */
+
 .barra{
-    background-color: rgb(227, 168, 92);
+    background-color:#00C3D7;
     padding: 2rem;
 
 }
 .navbar-collapse{
     align-items: center;
     justify-content:end;
+}
+
+
+/*Estilos Generales*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-titulo{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+/*Seccion hero*/
+
+.seccion{
+    background-color:#E2F0FF;
+    min-width: 450px;
+    padding: 2.5rem;
+}
+.seccion-oscura{
+    background-color: black;
+    color: antiquewhite;
+    
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+/*Seccion Sobre Mi*/
+
+.sobre{
+    text-align: center;
+    max-height: 600px;
+    padding: 3px;
+}
+
+
+
+/* adaptable (responsivo)*/
+
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .imagen-resp{
+        max-width: 600px;
+    }
 }

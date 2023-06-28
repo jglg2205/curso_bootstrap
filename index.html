@@ -16,7 +16,9 @@
         
         <!--BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-       
+
+        <!--ICONOS BOOTSTRAP-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <!--CSS-->
         <link href="style.css" rel="stylesheet">
 
@@ -29,7 +31,7 @@
         <!--BARRA DE NAVEGACION-->
         <nav class="navbar navbar-expand-md barra">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="images/icono.jpg" width="50" height="50"></a>
+              <a class="navbar-brand" href="#"><img  class="icono-imagen" src="images/icono.jpg" width="50" height="50"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -71,6 +73,118 @@
               <h2 class="seccion-titulo">Conoce mas acerca de Jose Lopez</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam accusamus debitis sit, quae cum quasi at inventore. Consequuntur fugit sint nihil tenetur maiores. Illum corporis laborum eum exercitationem quibusdam?</p>
             </div>
+          </section>
+          <!--SECCION EXPERIENCIA-->
+          <section class="seccion-clara">
+            <div class="container experiencia">
+              <div class="row">
+                <div class="col-12 col-md-4 columna">
+                  <p class="text-center"><i class="bi bi-laptop"></i></p>
+                  <p class="experiencia-titulo">Diseño Web</p>
+                  <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis voluptatibus hic, iusto cupiditate a, neque aperiam excepturi officiis illum dolorum odit accusantium sunt laborum quaerat, recusandae laudantium incidunt non.</p>
+                  <div class="text-center">
+                    <span class="badge text-bg-primary badge-contenedor">HTML</span>
+                    <span class="badge text-bg-primary badge-contenedor">CSS</span>
+                    <span class="badge text-bg-primary badge-contenedor">JavaScript</span>
+                    <span class="badge text-bg-primary badge-contenedor">React</span>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 columna">
+                  <p class="text-center"><i class="bi bi-journals"></i></p>
+                  <p class="experiencia-titulo">Articulo</p>
+                  <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis voluptatibus hic, iusto cupiditate a, neque aperiam excepturi officiis illum dolorum odit accusantium sunt laborum quaerat, recusandae laudantium incidunt non.</p>
+                  <div class="text-center">
+                    <span class="badge text-bg-primary badge-contenedor">Abrir</span>
+                    <span class="badge text-bg-primary badge-contenedor">Editar</span>
+                    <span class="badge text-bg-primary badge-contenedor">Blogs</span>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 columna">
+                  <p class="text-center"><i class="bi bi-globe2"></i></p>
+                  <p class="experiencia-titulo">Estudiante</p>
+                  <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis voluptatibus hic, iusto cupiditate a, neque aperiam excepturi officiis illum dolorum odit accusantium sunt laborum quaerat, recusandae laudantium incidunt non.</p>
+                  <div class="text-center">
+                    <span class="badge text-bg-primary badge-contenedor">Lumetrio</span>
+                    <span class="badge text-bg-primary badge-contenedor">FreeCodeCamp</span>
+                    <span class="badge text-bg-primary badge-contenedor">Python</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--MIS PROYECTOS-->
+          <section class="seccion">
+            <h2 class="seccion-titulo text-center">Mis Proyectos</h2>
+            <h3>Estos son algunos de mi proyectos recientes</h3>
+            <!--GALERIA DE PROYECTOS-->
+            <div class="container text-center">
+                <div class="row">
+                  <!--PROYECTO1-->
+                  <div class="col-12 col-md-6 col-lg-4">
+                      <div>
+                        <img src="images/educacionF.png" alt="libro">
+                      </div>
+                      <div>
+                        <div class="overlay">
+                          <p>Proyecto 1</p>
+                          <div class="icono-imagen">
+                            <a href="https://github.com/jglg2205/programacion_django" target="_blank">
+                              <i class="bi bi-git"></i>
+                            </a>
+                            <a href="https://lumetrio.com/" target="_blank">
+                              <i class="bi bi-laptop"></i>
+                            </a>
+                          </div>
+                        </div>
+                     </div>
+                    </div>
+                      <!--PROYECTO2-->
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div>
+                      <img src="images/admin.png" alt="panel">
+                    </div>
+                    <div>
+                      <div class="overlay">
+                        <p>Proyecto 2</p>
+                        <div class="icono-imagen">
+                          <a href="https://github.com/jglg2205/programacion_django" target="_blank">
+                            <i class="bi bi-git"></i>
+                          </a>
+                          <a href="https://lumetrio.com/" target="_blank">
+                            <i class="bi bi-laptop"></i>
+                          </a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                  
+                <!--PROYECTO3-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div>
+                    <img src="images/home_book.png" alt="panel">
+                  </div>
+                  <div>
+                    <div class="overlay">
+                      <p>Proyecto 3</p>
+                      <div class="icono-imagen">
+                        <a href="https://github.com/jglg2205/programacion_django" target="_blank">
+                          <i class="bi bi-git"></i>
+                        </a>
+                        <a href="https://lumetrio.com/" target="_blank">
+                          <i class="bi bi-laptop"></i>
+                        </a>
+                      </div>
+                  </div>
+                  
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <a>
+              <button class="btn btn-info">ver mas proyectos</button>
+            </a>
+           
           </section>
         <!---JAVASCRIPT DE BOOTSTRAP-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

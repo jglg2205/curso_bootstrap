@@ -10,8 +10,22 @@
     justify-content:end;
 }
 
+.icono-imagen{
+    border-radius: 50%;
+   
+}
+
 
 /*Estilos Generales*/
+
+.btn-info{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    background-color: coral;
+    color: aliceblue;
+}
 
 section{
     display: flex;
@@ -46,12 +60,108 @@ h1{
     font-family: 'Rubik Dirt', cursive;
 }
 
+.seccion-clara{
+    color:black;
+    background-color: antiquewhite;
+
+}
+
 /*Seccion Sobre Mi*/
 
 .sobre{
     text-align: center;
     max-height: 600px;
     padding: 3px;
+}
+
+/*Experiencia*/
+
+.experiencia{
+    padding: 30px;
+    
+}
+
+.experiencia i{
+
+    font-size: 2.5rem;
+    color: black;
+    background-color: aliceblue;
+    padding: 8px 19px;
+    border-radius: 50%;  
+
+}
+
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experiencia .columna{
+    padding: 20px;
+    border: 4px solid rgb(16, 31, 47);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+    color: white;
+    background-color: black ;
+}
+
+/*Mis proyectos*/
+
+.container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.overlay p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.overlay{
+    opacity: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.container:hover img{
+    opacity: 0.2;
+
+}
+
+
+.container:hover .overlay{
+    opacity: 1;
+    position: relative;
+}
+
+
+
+/* badges */
+
+.badges{
+    margin: 5px;
+    padding: 3px;
+}
+.badge-contenedor{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0px;
 }
 
 

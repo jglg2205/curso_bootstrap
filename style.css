@@ -40,6 +40,17 @@ section{
     padding: 15px 0;
 }
 
+a{
+    border-bottom: none;
+    font-weight: bold;
+}
+
+.lista{
+    max-width: 600px;
+    max-height: 600px;
+    text-align: center;
+}
+
 /*Seccion hero*/
 
 .seccion{
@@ -150,6 +161,36 @@ h1{
     position: relative;
 }
 
+/*Carousel*/
+
+.carusel-contenedor{
+    max-width: 100%;
+    max-height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carusel-imagen{
+    margin-top: 3px;
+    width: 200px;
+    height: 200px;
+}
+
+.carusel-titulo{
+    font-size: 1.2rem;
+    color: blue;
+}
+
+.carusel-parrafo{
+    font-size: 0.9rem;
+
+}
+.carusel-footer{
+    font-size: 0.7rem;
+    color: rgb(218, 218, 65);
+    font-weight: bold;
+}
+
 
 
 /* badges */
@@ -162,6 +203,42 @@ h1{
     font-size: 15px;
     font-weight: bold;
     margin: 10px 0px;
+}
+
+/*contacto*/
+
+.boton{
+    color: rgba(224, 28, 28, 0.84);
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all 0.2ms ease-in-out;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 5px;
+}
+
+.sobre{
+    color: rgb(38, 180, 219);
+    font-size: 15px;
+    transition: all 0,2ms ease-in-out;
+
+
+}
+.container .boton:hover{
+    color: black;
+    background-color: white;
+    
+}
+.boton .sobre:hover{
+    color: black;
+}
+
+/*footer*/
+.footer-icono{
+    margin-top: 3;
+    font-size: 25px;
+    font-weight: bold;
+    color: blanchedalmond;
 }
 
 
